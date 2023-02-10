@@ -24,7 +24,7 @@ const Nav = () => {
             </div>
 
             <div className={`w-full overflow-hidden md:block md:w-auto absolute md:static top-14 left-0 z-10  bg-[#A69BE7] ${openLink ? "flex" : "hidden"} ` }>
-              <ul className="flex flex-col p-4 mt-4 border border-gray-100 md:items-center md:flex-row md:space-x-9 font-normal md:font-light md:mt-0 md:text-base lg:text-lg  md:border-0">
+              <ul className="flex flex-col p-4 mt-4 md:items-center md:flex-row md:space-x-9 font-normal md:font-light md:mt-0 md:text-base lg:text-lg  md:border-0">
                 <li>
                   <NavHashLink smooth to="/index#home" className={`block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-[#313163] duration-300 `} >Home</NavHashLink>
                 </li>
