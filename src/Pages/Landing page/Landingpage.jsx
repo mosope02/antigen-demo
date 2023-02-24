@@ -23,11 +23,11 @@ export const Landingpage = () => {
 
         <div className='mt-10 lg:mt-16 md:grid md:grid-cols-2 gap-8 ' id='Home'>
           <div className=' w-11/12 mx-auto '>
-            <h2 className=' text-[40px] lg:text-6xl text-white w-11/12 font-playfair leading-[64px] md:mt-10'>Get Notifications On Your Vaccination Appointments.</h2>
-            <p className=' mt-4 text-regular text-white font-poppins  lg:leading-7'>Digitizing vaccination processes and records for you. <br />An emerging “All in One” tool that aims at redefining vaccines last mile administration for effective tracking and surveillance, provision of easily accessible, verifiable, contactless certification. </p>
-            <div className='flex py-4 justify-between w-fit'>
-              <img src={googleplay} className='w-[176px] h-14 mr-4' alt='Get it on Google play'/> 
-              <img src={appstore} className='w-[180px] h-14' alt='Get it on App store'/>
+            <h2 className=' text-[30px] lg:text-6xl text-white w-11/12 font-playfair leading-[64px] md:mt-10'>Get Notifications On Your Vaccination Appointments.</h2>
+            <p className=' mt-4 text-sm text-white font-poppins  lg:leading-7'>Digitizing vaccination processes and records for you. <br />An emerging “All in One” tool that aims at redefining vaccines last mile administration for effective tracking and surveillance, provision of easily accessible, verifiable, contactless certification. </p>
+            <div className='flex py-4 justify-between w-fit '>
+              <img src={googleplay} className='max-w-[140px] h-13 md:w-[176px] md:h-14 mr-4' alt='Get it on Google play'/> 
+              <img src={appstore} className='max-w-[147px] h-13 md::w-[180px] md:h-14' alt='Get it on App store'/>
             </div>
           </div>
 

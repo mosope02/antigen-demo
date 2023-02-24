@@ -1,7 +1,7 @@
 import React from 'react'
 import Group286 from '../../assets/Group 286.png';
 import { useState } from 'react';
-import { NavHashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Nav = () => {
@@ -26,19 +26,19 @@ const Nav = () => {
             <div className={`w-full overflow-hidden md:block md:w-auto absolute md:static top-14 left-0 z-10  bg-[#A69BE7] ${openLink ? "flex" : "hidden"} ` }>
               <ul className="flex flex-col p-4 mt-4 md:items-center md:flex-row md:space-x-9 font-normal md:font-light md:mt-0 md:text-base lg:text-lg  md:border-0">
                 <li>
-                  <NavHashLink smooth to="/index#home" className={`block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-[#313163] duration-300 `} >Home</NavHashLink>
+                  <HashLink smooth to="/index#home" className={`block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-[#313163] duration-300 `} >Home</HashLink>
                 </li>
                 <li>
-                  <NavHashLink smooth to="/index#about" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">About Us</NavHashLink>
+                  <HashLink smooth to="/index#about" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">About Us</HashLink>
                 </li>
                 <li>
-                  <NavHashLink smooth to="/index#services" className="block py-2 pl-3 pr-4 text-white text-w hitemd:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Our Services</NavHashLink>
+                  <HashLink smooth to="/index#services" className="block py-2 pl-3 pr-4 text-white text-w hitemd:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Our Services</HashLink>
                 </li>
                 <li>
-                  <NavHashLink smooth to="/index#products" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Our Product</NavHashLink>
+                  <HashLink smooth to="/index#products" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Our Product</HashLink>
                 </li>
                 <li>
-                  <NavHashLink smooth to="/index#contact" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Contact Us</NavHashLink>
+                  <HashLink smooth to="/index#contact" className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:border-0 md:hover:text-[#313163] md:p-0 duration-300">Contact Us</HashLink>
                 </li>
                 <li className=' mr-12 '>
                   <button className=' bg-[#313163] w-24 h-8 block font-light text-base  text-white rounded-xl lg:mr-16 hover:bg-white hover:text-[#313163] duration-300'>Login</button>

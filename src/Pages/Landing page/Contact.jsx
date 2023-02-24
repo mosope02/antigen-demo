@@ -39,15 +39,15 @@ export const Contact = () => {
                     setName('')}, 400)
                 }}>
                 <div>
-                    <div htmlFor="name" className='text-white py-4 font-light'>Name</div>
+                    <div htmlFor="name" className='text-white py-4 font-light'><label>Name</label></div>
                     <input type="text" className='rounded-md h-12 w-full text-[#333333] px-2' name="name" value={name} onChange={(e)=>setName(e.target.value)}/>
                 </div>
                 <div>
-                    <div htmlFor="email" className='text-white py-4 font-light' >Email</div>
+                    <div htmlFor="email" className='text-white py-4 font-light' ><label >Email</label></div>
                     <input type="email" className='rounded-md h-12 w-full text-[#333333] px-2' name="email" value={email} onChange={(e)=>setEmail(e.target.value) } />
                 </div>
                 <div>
-                    <div htmlFor="message" className='text-white py-4 font-light' >Message</div>
+                    <div htmlFor="message" className='text-white py-4 font-light' ><label>Message</label></div>
                     <textarea value={message} className='resize-none w-full outline-none px-1 text-base h-40 rounded-md' onChange={(e)=>setMessage(e.target.value)}></textarea>
                 </div>
                 <button className='mt-4 text-white font-light bg-[#313163] w-32 h-10 rounded-lg hover:bg-white hover:text-[#313163] duration-300' type='submit'>Send</button>
